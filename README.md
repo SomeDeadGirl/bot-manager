@@ -7,5 +7,7 @@ Bots will be removed based on two criteria: when a player chooses the same class
 
 Yes, you can stack with this plugin, and it should kick the bots out to make space for the server.  
 
+If you're an admin, you can turn off the manager by typing !bots in chat. By the way, it will sort of remain "on" - it will just kick the bots and prevent them from spawning, but it will still be keeping track of everything.  
+
 REQUIREMENTS:  
 [MvM Defenders Bots](https://github.com/OfficerSpy/TF2-MvM-Defender-TFBots)
