@@ -58,7 +58,7 @@ public void OnPluginStart() {
     
     // Create ConVars
     g_cvDebug = CreateConVar("sm_bot_manager_debug", "1", "Enable debug logging (1 = On, 0 = Off)", FCVAR_NOTIFY, true, 0.0, true, 1.0);
-    g_cvTeamSizeLimit = CreateConVar("sm_bot_manager_team_size", "11", "Maximum team size (Human + Bot). Default: 11 (leaves 1 slot open for new players)", FCVAR_NOTIFY, true, 1.0, true, 24.0);
+    g_cvTeamSizeLimit = CreateConVar("sm_bot_manager_team_size", "11", "Maximum team size (Human + Bot). Default: 11 (leave 1 slot open for new players to join)", FCVAR_NOTIFY, true, 1.0, true, 24.0);
     g_cvLimitScout = CreateConVar("sm_bot_manager_limit_scout", "1", "Max players (Human + Bot) for Scout", FCVAR_NOTIFY);
     g_cvLimitSniper = CreateConVar("sm_bot_manager_limit_sniper", "1", "Max players (Human + Bot) for Sniper", FCVAR_NOTIFY);
     g_cvLimitSoldier = CreateConVar("sm_bot_manager_limit_soldier", "2", "Max players (Human + Bot) for Soldier", FCVAR_NOTIFY);
@@ -514,4 +514,5 @@ bool KickAnyBot() {
 
 bool IsValidPlayer(int client) {
     return (client > 0 && client <= MaxClients && IsClientInGame(client) && !IsFakeClient(client));
+
 }
