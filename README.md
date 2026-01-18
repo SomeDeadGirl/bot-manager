@@ -9,5 +9,5 @@ Yes, you can stack with this plugin, and it should kick the bots out to make spa
 
 If you're an admin, you can turn off the manager by typing !bots in chat. By the way, it will sort of remain "on" - it will just kick the bots and prevent them from spawning, but it will still be keeping track of everything.  
 
-REQUIREMENTS:  
+Requirements:  
 [MvM Defenders Bots](https://github.com/OfficerSpy/TF2-MvM-Defender-TFBots)
